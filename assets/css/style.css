@@ -95,7 +95,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2ff52', end
     background: #fff;
     color: #000;
     font-weight: 800;
-    margin-left: 10%;
+    margin-left: 20%;
 };
 
 .left-text {
@@ -181,6 +181,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2ff52', end
 
     .animated-news {
         padding: 0 5%;
+    }
+
+    .right-text{
+        margin-left: 5% !important;
     }
 
 }
