@@ -1,0 +1,190 @@
+body {
+    background: #000;
+    color: #fff;
+}
+
+.main-head {
+    background: -webkit-linear-gradient(20deg, #67abd8, #1490b9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 80px;
+    margin-bottom: -10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.news-btn {
+    margin: 10px 0;
+    padding: 17px 10px;
+    font-size: 22px;
+    background: #FFFFFF;
+    color: #000;
+    font-weight: 800;
+    border-radius: 20px;
+    width: 60%
+}
+
+.news-btn:hover {
+    transform: scale(1.05);
+    background: #FFFFFF;
+    color: #000;
+    transition: .5s;
+}
+
+.platforms {
+    height: 220px;
+    border-radius: 20px;
+    padding: 0 20px;
+}
+
+.news-buy{
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff5db1+0,ef017c+100;Pink+3D+%231 */
+background: #ff5db1; /* Old browsers */
+background: -moz-linear-gradient(left,  #ff5db1 0%, #ef017c 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  #ff5db1 0%,#ef017c 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  #ff5db1 0%,#ef017c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5db1', endColorstr='#ef017c',GradientType=1 ); /* IE6-9 */
+}
+
+.dex{
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#c5deea+0,8abbd7+0,066dab+100 */
+background: #c5deea; /* Old browsers */
+background: -moz-linear-gradient(top,  #c5deea 0%, #8abbd7 0%, #066dab 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #c5deea 0%,#8abbd7 0%,#066dab 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #c5deea 0%,#8abbd7 0%,#066dab 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c5deea', endColorstr='#066dab',GradientType=0 ); /* IE6-9 */
+}
+
+.uni{
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#d2ff52+0,91e842+100;Neon */
+background: #d2ff52; /* Old browsers */
+background: -moz-linear-gradient(top,  #d2ff52 0%, #91e842 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #d2ff52 0%,#91e842 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #d2ff52 0%,#91e842 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2ff52', endColorstr='#91e842',GradientType=0 ); /* IE6-9 */
+
+}
+
+.platforms-p {
+    font-size: 22px;
+    color: #fff;
+    font-weight: 800;
+    text-shadow: 2px 2px 3px #000, 1px 1px 1px #000;
+}
+
+.platforms:hover,
+.socials:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.linkk{
+    text-decoration: none;
+    color: #fff;
+}
+.linkk:hover{
+    color: #fff;
+}
+
+.right-text {
+    padding: 10px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-size: 25px;
+    background: #fff;
+    color: #000;
+    font-weight: 800;
+    margin-left: 20%;
+};
+
+.left-text {
+    padding: 10px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-size: 25px;
+    background: #fff;
+    color: #000;
+    font-weight: 800;
+    margin-left: 20%;
+}
+
+.socials-span{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.row {
+    margin: 0 100px;
+}
+
+.main-sub {
+    font-size: 55px;
+}
+
+.news-main {
+    padding-top: 400px;
+}
+
+.news-temp {
+    display: none
+}
+
+.animated-news {
+    padding: 0 20%
+}
+
+.sub-p {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 23px;
+    text-align: center
+}
+
+.socials {
+    border-radius: 20px;
+}
+
+
+@media only screen and (max-width: 667px) {
+    .row {
+        margin: unset
+    }
+
+    .news-temp {
+        display: block;
+    }
+
+    .sub-p {
+        width: 100%;
+        text-align: left;
+    }
+
+    .main-head {
+        font-size: 60px !important;
+        margin-bottom: 20px;
+    }
+
+    .news {
+        display: none;
+    }
+
+    .news-btn {
+        width: 90%;
+        padding: 10px 20px
+    }
+
+    .main-sub {
+        font-size: 30px !important;
+    }
+
+    .news-main {
+        padding-top: 50px;
+        ;
+    }
+
+    .animated-news {
+        padding: 0 5%;
+    }
+
+}
