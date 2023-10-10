@@ -7,6 +7,7 @@ body {
     color: #B9BCBD;
     font-size: 80px;
     margin-bottom: -10px;
+    font-weight: 700;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -174,7 +175,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2ff52', end
 
     .news-main {
         padding-top: 50px;
-        ;
     }
 
     .animated-news {
