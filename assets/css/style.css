@@ -4,9 +4,7 @@ body {
 }
 
 .main-head {
-    background: -webkit-linear-gradient(20deg, #67abd8, #1490b9);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #B9BCBD;
     font-size: 80px;
     margin-bottom: -10px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;

@@ -18,35 +18,44 @@
 
     <div class="container text-center" style="position: relative;">
         <img src="./assets/img/sifu.png" id="news" class="img-fluid news"
-            style="position: absolute; left: 33%; top: 0px; width: 400px;" alt="">
+            style="position: absolute; left: 35%; top: 0px; width: 400px;" alt="">
         <div class="news-main">
             <img src="./assets/img/news.png" class="img-fluid news-temp" alt="">
             <h1 class="text-center main-head mb-2">ETH on ETH</h1>
-            <h2 class="text-center mt-0 maain-sub">Fed up with teams offloading tokens on backers? ETH ON ETH is your answer</h2>
-            <p class="sub-p my-5 text-center">ETH on ETH is made by the community for everyone. It's a coin you can trust and keep safely. No special coins for our team, and no early sales. Just simple and straightforward.</p>
+            <h2 class="text-center mt-0 maain-sub">Fed up with teams offloading tokens on backers? ETH ON ETH is your
+                answer</h2>
+            <p class="sub-p my-5 text-center">ETH on ETH is made by the community for everyone. It's a coin you can
+                trust and keep safely. No special coins for our team, and no early sales. Just simple and
+                straightforward.</p>
         </div>
 
         <div id="animated-news" class="animated-news">
             <div class="mt-3 right-text" style="margin-left: 0;margin-right: 20%; text-align: left; font-size: 20px;"
-            data-aos="zoom-in-right" data-aos-delay="500"><img src = "./assets/img/news/1.png" class="img-fluid" /></div>
-            <div class="right-text mt-4" data-aos="zoom-in-left"><img src = "./assets/img/news/2.png" class="img-fluid" /></div>
+                data-aos="zoom-in-right" data-aos-delay="500"><img src="./assets/img/news/1.png" class="img-fluid" />
+            </div>
+            <div class="right-text mt-4" data-aos="zoom-in-left"><img src="./assets/img/news/2.png" class="img-fluid" />
+            </div>
 
             <div class="mt-3 right-text" style="margin-left: 0;margin-right: 20%; text-align: left; font-size: 20px;"
-            data-aos="zoom-in-right" data-aos-delay="500"><img src = "./assets/img/news/3.png" class="img-fluid" /></div>
-            <div class="right-text mt-4" data-aos="zoom-in-left"><img src = "./assets/img/news/4.png" class="img-fluid" /></div>
-            
+                data-aos="zoom-in-right" data-aos-delay="500"><img src="./assets/img/news/3.png" class="img-fluid" />
+            </div>
+            <div class="right-text mt-4" data-aos="zoom-in-left"><img src="./assets/img/news/4.png" class="img-fluid" />
+            </div>
+
             <div class="mt-3 right-text" style="margin-left: 0;margin-right: 20%; text-align: left; font-size: 20px;"
-            data-aos="zoom-in-right" data-aos-delay="500"><img src = "./assets/img/news/5.png" class="img-fluid" /></div>
-            <div class="right-text mt-4" data-aos="zoom-in-left"><img src = "./assets/img/news/6.png" class="img-fluid" /></div>
-            
+                data-aos="zoom-in-right" data-aos-delay="500"><img src="./assets/img/news/5.png" class="img-fluid" />
+            </div>
+            <div class="right-text mt-4" data-aos="zoom-in-left"><img src="./assets/img/news/6.png" class="img-fluid" />
+            </div>
+
             <div class="mt-3 right-text" style="margin-left: 0;margin-right: 20%; text-align: left; font-size: 20px;"
-            data-aos="zoom-in-right" data-aos-delay="500"><img src = "./assets/img/news/7.png" class="img-fluid" /></div>
+                data-aos="zoom-in-right" data-aos-delay="500"><img src="./assets/img/news/7.png" class="img-fluid" />
+            </div>
         </div>
 
         <div class="row mt-5">
             <div class="col-lg-4 mt-4">
-                <a href=""
-                    class="linkk">
+                <a href="" class="linkk">
                     <div class="platforms news-buy">
                         <img src="./assets/img/6758.png" style="width: 100px; height: auto; margin: 20px  0 auto;"
                             alt="">
@@ -55,8 +64,7 @@
                 </a>
             </div>
             <div class="col-lg-4 mt-4">
-                <a href=""
-                    class="linkk">
+                <a href="" class="linkk">
                     <div class="platforms dex">
                         <img src="./assets/img/dextools.png" style="width: 100px; height: auto; margin: 20px  0 auto;"
                             alt="">
@@ -65,8 +73,7 @@
                 </a>
             </div>
             <div class="col-lg-4 mt-4">
-                <a href=""
-                    class="linkk">
+                <a href="" class="linkk">
                     <div class="platforms uni">
                         <img src="./assets/img/uni.png" style="width: 100px; height: auto; margin: 20px  0 auto;"
                             alt="">
@@ -108,6 +115,19 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <script>
+
+
+        document.getElementById("boddy").addEventListener("mousemove", function (event) {
+            myFunction(event);
+        });
+
+        function myFunction(e) {
+            var x = e.clientX;
+            var y = e.clientY;
+            var coor = "Coordinates: (" + x + "," + y + ")";
+            document.getElementById("sifu").style.margin = x / 20 + "px" + " " + y / 20 + "px";
+        }
+
         AOS.init();
     </script>
 
